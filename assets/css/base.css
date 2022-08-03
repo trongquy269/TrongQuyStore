@@ -5,7 +5,8 @@
     --text-color: #333;
     --border-color: #eee;
 
-    --header-height: 120px;
+    --header-height: 60px;
+    --tablet-navbar: 44px
 }
 
 /*
@@ -31,9 +32,11 @@ html {
 }
 
 /* Responsive */
-.grid {
+/* .grid {
     width: 1200px;
+    display: block;
     max-width: 100%;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -51,12 +54,12 @@ html {
 .grid__column-4 {
     width: calc(100% / 4 - 12px);
     margin: 6px;
-}
+} */
 
-.grid__column-10 {
+/* .grid__column-10 {
     width: calc(100% / 10 - 12px);
     margin: 6px;
-}
+} */
 
 /* Animations */
 @keyframes fadeIn {

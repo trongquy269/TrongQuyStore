@@ -1,0 +1,118 @@
+/* PC & Tablet */
+@media (min-width: 740px)
+{
+    .hide-on-pc-tablet {
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px)
+{
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .header {
+        position: fixed;
+        height: var(--header-height);
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__nav-list {
+        margin: 0;
+    }
+
+    .container__outstanding-device-list {
+        height: 260px;
+        overflow-y: auto;
+    }
+
+    .container__outstanding-device-wrap {
+        margin-top: 4px;
+    }
+
+    .container-products__heading {
+        padding-bottom: 8px;
+    }
+
+    .container-products__list {
+        margin-top: 16px;
+    }
+
+    .container-products__item-wrap--scroll-snap-item-img {
+        width: 132px;
+    }
+
+    .container-products__item-img {
+        width: 160px;
+    }
+
+    .footer__heading-item {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .grid {
+        width: 644px;
+    }
+
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__nav-list-item-search {
+        width: 320px;
+    }
+
+    .tablet__category {
+        display: block;
+    }
+
+    .tablet-navbar {
+        display: block;
+    }
+
+    .container__trend-shopping-item-link {
+        margin-top: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px)
+{
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header__nav-list-item-cart {
+        height: unset;
+        padding: 0;
+        background-color: transparent;
+        border-radius: 0px;
+        display: block;
+    }
+
+    .header__nav-list-item-link-icon {
+        padding: 0 12px;
+    }
+
+    .header__nav-list-item-search {
+        width: unset;
+        flex: 1;
+    }
+
+    .container__outstanding-device-wrap {
+        margin-top: 32px;
+    }
+}
